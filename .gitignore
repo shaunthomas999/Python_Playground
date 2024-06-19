@@ -2,5 +2,16 @@
 .idea
 *.iml
 
-# Python venv
-venv
+# Virtualenv
+# https://github.com/github/gitignore/blob/main/Global/VirtualEnv.gitignore
+.Python
+.venv
+
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
